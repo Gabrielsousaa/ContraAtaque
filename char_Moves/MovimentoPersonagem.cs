@@ -33,7 +33,10 @@ namespace souto
         {
             estaAndando = false;
             anim = GetComponent<Animator>();
+    
             controle = GetComponent<CharacterController>();
+
+            
             //estaAbaixado = false;
             //cameraTransform = Camera.main.transform;
         }
